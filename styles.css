@@ -185,3 +185,58 @@ li {
         font-size: 0.7em;
     }
 }
+.Message-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    justify-content: center; 
+    height: 100vh;           
+  }
+  
+  .Message-header {
+    margin-bottom: 20px;     
+    text-align: center;      
+  }
+  
+  .name-input, .email-input, textarea {
+    width: 300%;              
+    font-size: 20px;         
+    padding: 10px;           
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;     
+  }
+  
+  textarea {
+    height: 150px;           
+    resize: vertical;        
+  }
+  
+  .submit-button {
+    padding: 10px 20px;        
+    font-size: 16px;          
+    background-color: 169,169,169; 
+    color: rgb(255, 255, 255);              
+    border: none;            
+    border-radius: 5px;       
+    cursor: pointer;          
+    transition: background-color 0.3s;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    width: 100%;             
+  }
+  
+  .Message-container form,
+  .Message-header {
+    text-align: center;  /* Ensures "Message me:" and form elements are centered */
+  }
+  
+  
+  .submit-button:hover {
+    background-color: #807c7c; 
+  }
